@@ -3,13 +3,13 @@
 
 terraform {
 
-  # cloud {
-  #   organization = "TaliaFirstOrganization"
+  cloud {
+    organization = "TaliaFirstOrganization"
 
-  #   workspaces {
-  #     name = "learn-terraform"
-  #   }
-  # }
+    workspaces {
+      name = "learn-terraform"
+    }
+  }
 
   required_providers {
     aws = {
